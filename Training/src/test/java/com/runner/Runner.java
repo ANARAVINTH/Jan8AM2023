@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
         features = {"src/test/resources/featurefile"},
         glue = {"com/stepdefination"},
-        tags = "@Hyperlink",
+        tags = "@Regression",
         plugin = {"pretty",
                 "html:target/HtmlReport.html",
                 "json:target/JsonReport.json",
